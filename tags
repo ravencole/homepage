@@ -1,0 +1,280 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0484191d/
+0	composer.json	/^            "@php -r \\"file_exists('.env') || copy('.env.example', '.env');\\""$/;"	s	array:scripts.post-root-package-install
+0	composer.json	/^            "@php artisan key:generate --ansi"$/;"	s	array:scripts.post-create-project-cmd
+0	composer.json	/^            "Illuminate\\\\Foundation\\\\ComposerScripts::postAutoloadDump",$/;"	s	array:scripts.post-autoload-dump
+0	composer.json	/^            "database\/seeds",$/;"	s	array:autoload.classmap
+0	composer.json	/^        "framework",$/;"	s	array:keywords
+1	composer.json	/^            "@php artisan package:discover --ansi"$/;"	s	array:scripts.post-autoload-dump
+1	composer.json	/^            "database\/factories"$/;"	s	array:autoload.classmap
+1	composer.json	/^        "laravel"$/;"	s	array:keywords
+About Laravel	README.md	/^## About Laravel$/;"	s
+Added	CHANGELOG.md	/^### Added$/;"	S
+App	app/User.php	/^namespace App;$/;"	n
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+App\\Console	app/Console/Kernel.php	/^namespace App\\Console;$/;"	n
+App\\Exceptions	app/Exceptions/Handler.php	/^namespace App\\Exceptions;$/;"	n
+App\\Http	app/Http/Kernel.php	/^namespace App\\Http;$/;"	n
+App\\Http\\Controllers	app/Http/Controllers/Controller.php	/^namespace App\\Http\\Controllers;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/Authenticate.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/CheckForMaintenanceMode.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/EncryptCookies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/RedirectIfAuthenticated.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrimStrings.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrustProxies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/VerifyCsrfToken.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Providers	app/Providers/AppServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/AuthServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/BroadcastServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/EventServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/RouteServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\\\	composer.json	/^            "App\\\\": "app\/"$/;"	s	object:autoload.psr-4
+Artisan	routes/console.php	/^use Illuminate\\Support\\Facades\\Artisan;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Artisan
+Auth	app/Http/Middleware/RedirectIfAuthenticated.php	/^use Illuminate\\Support\\Facades\\Auth;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Support\\Facades\\Auth
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Authenticatable	app/User.php	/^use Illuminate\\Foundation\\Auth\\User as Authenticatable;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Foundation\\Auth\\User
+Authenticate	app/Http/Middleware/Authenticate.php	/^class Authenticate extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+AuthorizesRequests	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests
+BaseController	app/Http/Controllers/Controller.php	/^use Illuminate\\Routing\\Controller as BaseController;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Routing\\Controller
+BaseTestCase	tests/TestCase.php	/^use Illuminate\\Foundation\\Testing\\TestCase as BaseTestCase;$/;"	a	namespace:Tests	typeref:unknown:Illuminate\\Foundation\\Testing\\TestCase
+Blueprint	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Blueprint	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Broadcast	app/Providers/BroadcastServiceProvider.php	/^use Illuminate\\Support\\Facades\\Broadcast;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Broadcast
+Broadcast	routes/channels.php	/^use Illuminate\\Support\\Facades\\Broadcast;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Broadcast
+BroadcastServiceProvider	app/Providers/BroadcastServiceProvider.php	/^class BroadcastServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Changed	CHANGELOG.md	/^### Changed$/;"	S
+CheckForMaintenanceMode	app/Http/Middleware/CheckForMaintenanceMode.php	/^class CheckForMaintenanceMode extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+Closure	app/Http/Middleware/RedirectIfAuthenticated.php	/^use Closure;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Closure
+Code of Conduct	README.md	/^## Code of Conduct$/;"	s
+ConsoleKernel	app/Console/Kernel.php	/^use Illuminate\\Foundation\\Console\\Kernel as ConsoleKernel;$/;"	a	namespace:App\\Console	typeref:unknown:Illuminate\\Foundation\\Console\\Kernel
+Contributing	README.md	/^## Contributing$/;"	s
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c	namespace:App\\Http\\Controllers
+CreateFailedJobsTable	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^class CreateFailedJobsTable extends Migration$/;"	c
+CreateUsersTable	database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+CreatesApplication	tests/CreatesApplication.php	/^trait CreatesApplication$/;"	t	namespace:Tests
+DatabaseSeeder	database/seeds/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c
+DispatchesJobs	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Bus\\DispatchesJobs;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Bus\\DispatchesJobs
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+Event	app/Providers/EventServiceProvider.php	/^use Illuminate\\Support\\Facades\\Event;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Event
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+ExampleTest	tests/Feature/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c	namespace:Tests\\Feature
+ExampleTest	tests/Unit/ExampleTest.php	/^class ExampleTest extends TestCase$/;"	c	namespace:Tests\\Unit
+ExceptionHandler	app/Exceptions/Handler.php	/^use Illuminate\\Foundation\\Exceptions\\Handler as ExceptionHandler;$/;"	a	namespace:App\\Exceptions	typeref:unknown:Illuminate\\Foundation\\Exceptions\\Handler
+Faker	database/factories/UserFactory.php	/^use Faker\\Generator as Faker;$/;"	a	typeref:unknown:Faker\\Generator
+Fixed	CHANGELOG.md	/^### Fixed$/;"	S
+Gate	app/Providers/AuthServiceProvider.php	/^use Illuminate\\Support\\Facades\\Gate;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Gate
+HOME	app/Providers/RouteServiceProvider.php	/^    public const HOME = '\/home';$/;"	d	class:App\\Providers\\RouteServiceProvider
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c	namespace:App\\Exceptions
+HttpKernel	app/Http/Kernel.php	/^use Illuminate\\Foundation\\Http\\Kernel as HttpKernel;$/;"	a	namespace:App\\Http	typeref:unknown:Illuminate\\Foundation\\Http\\Kernel
+Inspiring	routes/console.php	/^use Illuminate\\Foundation\\Inspiring;$/;"	a	typeref:unknown:Illuminate\\Foundation\\Inspiring
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c	namespace:App\\Console
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c	namespace:App\\Http
+Kernel	tests/CreatesApplication.php	/^use Illuminate\\Contracts\\Console\\Kernel;$/;"	a	namespace:Tests	typeref:unknown:Illuminate\\Contracts\\Console\\Kernel
+LARAVEL_START	artisan	/^define('LARAVEL_START', microtime(true));$/;"	d
+LARAVEL_START	public/index.php	/^define('LARAVEL_START', microtime(true));$/;"	d
+Laravel Sponsors	README.md	/^## Laravel Sponsors$/;"	s
+Learning Laravel	README.md	/^## Learning Laravel$/;"	s
+License	README.md	/^## License$/;"	s
+Middleware	app/Http/Middleware/Authenticate.php	/^use Illuminate\\Auth\\Middleware\\Authenticate as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Auth\\Middleware\\Authenticate
+Middleware	app/Http/Middleware/CheckForMaintenanceMode.php	/^use Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode
+Middleware	app/Http/Middleware/EncryptCookies.php	/^use Illuminate\\Cookie\\Middleware\\EncryptCookies as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Cookie\\Middleware\\EncryptCookies
+Middleware	app/Http/Middleware/TrimStrings.php	/^use Illuminate\\Foundation\\Http\\Middleware\\TrimStrings as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\TrimStrings
+Middleware	app/Http/Middleware/TrustProxies.php	/^use Fideloper\\Proxy\\TrustProxies as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Fideloper\\Proxy\\TrustProxies
+Middleware	app/Http/Middleware/VerifyCsrfToken.php	/^use Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken as Middleware;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken
+Migration	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+Migration	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+MustVerifyEmail	app/User.php	/^use Illuminate\\Contracts\\Auth\\MustVerifyEmail;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Contracts\\Auth\\MustVerifyEmail
+Notifiable	app/User.php	/^use Illuminate\\Notifications\\Notifiable;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Notifications\\Notifiable
+NullHandler	config/logging.php	/^use Monolog\\Handler\\NullHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\NullHandler
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c	namespace:App\\Http\\Middleware
+RefreshDatabase	tests/Feature/ExampleTest.php	/^use Illuminate\\Foundation\\Testing\\RefreshDatabase;$/;"	a	namespace:Tests\\Feature	typeref:unknown:Illuminate\\Foundation\\Testing\\RefreshDatabase
+Registered	app/Providers/EventServiceProvider.php	/^use Illuminate\\Auth\\Events\\Registered;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Auth\\Events\\Registered
+Release Notes	CHANGELOG.md	/^# Release Notes$/;"	c
+Removed	CHANGELOG.md	/^### Removed$/;"	S
+Request	app/Http/Middleware/TrustProxies.php	/^use Illuminate\\Http\\Request;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:Illuminate\\Http\\Request
+Request	routes/api.php	/^use Illuminate\\Http\\Request;$/;"	a	typeref:unknown:Illuminate\\Http\\Request
+Route	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\Facades\\Route
+Route	routes/api.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Route
+Route	routes/web.php	/^use Illuminate\\Support\\Facades\\Route;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Route
+RouteServiceProvider	app/Http/Middleware/RedirectIfAuthenticated.php	/^use App\\Providers\\RouteServiceProvider;$/;"	a	namespace:App\\Http\\Middleware	typeref:unknown:App\\Providers\\RouteServiceProvider
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Schedule	app/Console/Kernel.php	/^use Illuminate\\Console\\Scheduling\\Schedule;$/;"	a	namespace:App\\Console	typeref:unknown:Illuminate\\Console\\Scheduling\\Schedule
+Schema	database/migrations/2014_10_12_000000_create_users_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Schema	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Security	CHANGELOG.md	/^### Security$/;"	S
+Security Vulnerabilities	README.md	/^## Security Vulnerabilities$/;"	s
+Seeder	database/seeds/DatabaseSeeder.php	/^use Illuminate\\Database\\Seeder;$/;"	a	typeref:unknown:Illuminate\\Database\\Seeder
+SendEmailVerificationNotification	app/Providers/EventServiceProvider.php	/^use Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Auth\\Listeners\\SendEmailVerificationNotification
+ServiceProvider	app/Providers/AppServiceProvider.php	/^use Illuminate\\Support\\ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\ServiceProvider
+ServiceProvider	app/Providers/AuthServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\AuthServiceProvider
+ServiceProvider	app/Providers/BroadcastServiceProvider.php	/^use Illuminate\\Support\\ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Support\\ServiceProvider
+ServiceProvider	app/Providers/EventServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\EventServiceProvider
+ServiceProvider	app/Providers/RouteServiceProvider.php	/^use Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider as ServiceProvider;$/;"	a	namespace:App\\Providers	typeref:unknown:Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider
+Str	config/cache.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	config/database.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	config/session.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+Str	database/factories/UserFactory.php	/^use Illuminate\\Support\\Str;$/;"	a	typeref:unknown:Illuminate\\Support\\Str
+StreamHandler	config/logging.php	/^use Monolog\\Handler\\StreamHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\StreamHandler
+SyslogUdpHandler	config/logging.php	/^use Monolog\\Handler\\SyslogUdpHandler;$/;"	a	typeref:unknown:Monolog\\Handler\\SyslogUdpHandler
+TestCase	tests/Feature/ExampleTest.php	/^use Tests\\TestCase;$/;"	a	namespace:Tests\\Feature	typeref:unknown:Tests\\TestCase
+TestCase	tests/TestCase.php	/^abstract class TestCase extends BaseTestCase$/;"	c	namespace:Tests
+TestCase	tests/Unit/ExampleTest.php	/^use PHPUnit\\Framework\\TestCase;$/;"	a	namespace:Tests\\Unit	typeref:unknown:PHPUnit\\Framework\\TestCase
+Tests	tests/CreatesApplication.php	/^namespace Tests;$/;"	n
+Tests	tests/TestCase.php	/^namespace Tests;$/;"	n
+Tests\\Feature	tests/Feature/ExampleTest.php	/^namespace Tests\\Feature;$/;"	n
+Tests\\Unit	tests/Unit/ExampleTest.php	/^namespace Tests\\Unit;$/;"	n
+Tests\\\\	composer.json	/^            "Tests\\\\": "tests\/"$/;"	s	object:autoload-dev.psr-4
+Throwable	app/Exceptions/Handler.php	/^use Throwable;$/;"	a	namespace:App\\Exceptions	typeref:unknown:Throwable
+TrimStrings	app/Http/Middleware/TrimStrings.php	/^class TrimStrings extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+TrustProxies	app/Http/Middleware/TrustProxies.php	/^class TrustProxies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+User	app/User.php	/^class User extends Authenticatable$/;"	c	namespace:App
+User	database/factories/UserFactory.php	/^use App\\User;$/;"	a	typeref:unknown:App\\User
+ValidatesRequests	app/Http/Controllers/Controller.php	/^use Illuminate\\Foundation\\Validation\\ValidatesRequests;$/;"	a	namespace:App\\Http\\Controllers	typeref:unknown:Illuminate\\Foundation\\Validation\\ValidatesRequests
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+[Unreleased](https://github.com/laravel/laravel/compare/v7.3.0...master)	CHANGELOG.md	/^## [Unreleased](https:\/\/github.com\/laravel\/laravel\/compare\/v7.3.0...master)$/;"	s
+[v5.4.16 (2017-03-17)](https://github.com/laravel/laravel/compare/v5.4.15...v5.4.16)	CHANGELOG.md	/^## [v5.4.16 (2017-03-17)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.15...v5.4.16)$/;"	s
+[v5.4.19 (2017-04-20)](https://github.com/laravel/laravel/compare/v5.4.16...v5.4.19)	CHANGELOG.md	/^## [v5.4.19 (2017-04-20)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.16...v5.4.19)$/;"	s
+[v5.4.21 (2017-04-28)](https://github.com/laravel/laravel/compare/v5.4.19...v5.4.21)	CHANGELOG.md	/^## [v5.4.21 (2017-04-28)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.19...v5.4.21)$/;"	s
+[v5.4.23 (2017-05-11)](https://github.com/laravel/laravel/compare/v5.4.21...v5.4.23)	CHANGELOG.md	/^## [v5.4.23 (2017-05-11)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.21...v5.4.23)$/;"	s
+[v5.4.30 (2017-07-20)](https://github.com/laravel/laravel/compare/v5.4.23...v5.4.30)	CHANGELOG.md	/^## [v5.4.30 (2017-07-20)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.23...v5.4.30)$/;"	s
+[v5.5.0 (2017-08-30)](https://github.com/laravel/laravel/compare/v5.4.30...v5.5.0)	CHANGELOG.md	/^## [v5.5.0 (2017-08-30)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.4.30...v5.5.0)$/;"	s
+[v5.5.22 (2017-11-21)](https://github.com/laravel/laravel/compare/v5.5.0...v5.5.22)	CHANGELOG.md	/^## [v5.5.22 (2017-11-21)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.5.0...v5.5.22)$/;"	s
+[v5.5.28 (2018-01-03)](https://github.com/laravel/laravel/compare/v5.5.22...v5.5.28)	CHANGELOG.md	/^## [v5.5.28 (2018-01-03)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.5.22...v5.5.28)$/;"	s
+[v5.6.0 (2018-02-07)](https://github.com/laravel/laravel/compare/v5.5.28...v5.6.0)	CHANGELOG.md	/^## [v5.6.0 (2018-02-07)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.5.28...v5.6.0)$/;"	s
+[v5.6.12 (2018-03-14)](https://github.com/laravel/laravel/compare/v5.6.7...v5.6.12)	CHANGELOG.md	/^## [v5.6.12 (2018-03-14)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.6.7...v5.6.12)$/;"	s
+[v5.6.21 (2018-05-21)](https://github.com/laravel/laravel/compare/v5.6.12...v5.6.21)	CHANGELOG.md	/^## [v5.6.21 (2018-05-21)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.6.12...v5.6.21)$/;"	s
+[v5.6.33 (2018-08-13)](https://github.com/laravel/laravel/compare/v5.6.21...v5.6.33)	CHANGELOG.md	/^## [v5.6.33 (2018-08-13)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.6.21...v5.6.33)$/;"	s
+[v5.6.7 (2018-02-27)](https://github.com/laravel/laravel/compare/v5.6.0...v5.6.7)	CHANGELOG.md	/^## [v5.6.7 (2018-02-27)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.6.0...v5.6.7)$/;"	s
+[v5.7.0 (2018-09-04)](https://github.com/laravel/laravel/compare/v5.6.33...v5.7.0)	CHANGELOG.md	/^## [v5.7.0 (2018-09-04)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.6.33...v5.7.0)$/;"	s
+[v5.7.13 (2018-11-07)](https://github.com/laravel/laravel/compare/v5.7.0...v5.7.13)	CHANGELOG.md	/^## [v5.7.13 (2018-11-07)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.7.0...v5.7.13)$/;"	s
+[v5.7.15 (2018-11-22)](https://github.com/laravel/laravel/compare/v5.7.13...v5.7.15)	CHANGELOG.md	/^## [v5.7.15 (2018-11-22)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.7.13...v5.7.15)$/;"	s
+[v5.7.19 (2018-12-15)](https://github.com/laravel/laravel/compare/v5.7.15...v5.7.19)	CHANGELOG.md	/^## [v5.7.19 (2018-12-15)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.7.15...v5.7.19)$/;"	s
+[v5.7.28 (2019-02-05)](https://github.com/laravel/laravel/compare/v5.7.19...v5.7.28)	CHANGELOG.md	/^## [v5.7.28 (2019-02-05)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.7.19...v5.7.28)$/;"	s
+[v5.8.0 (2019-02-26)](https://github.com/laravel/laravel/compare/v5.7.28...v5.8.0)	CHANGELOG.md	/^## [v5.8.0 (2019-02-26)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.7.28...v5.8.0)$/;"	s
+[v5.8.16 (2019-05-07)](https://github.com/laravel/laravel/compare/v5.8.3...v5.8.16)	CHANGELOG.md	/^## [v5.8.16 (2019-05-07)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.8.3...v5.8.16)$/;"	s
+[v5.8.17 (2019-05-14)](https://github.com/laravel/laravel/compare/v5.8.16...v5.8.17)	CHANGELOG.md	/^## [v5.8.17 (2019-05-14)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.8.16...v5.8.17)$/;"	s
+[v5.8.3 (2019-03-05)](https://github.com/laravel/laravel/compare/v5.8.0...v5.8.3)	CHANGELOG.md	/^## [v5.8.3 (2019-03-05)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.8.0...v5.8.3)$/;"	s
+[v5.8.35 (2019-09-09)](https://github.com/laravel/laravel/compare/v5.8.17...v5.8.35)	CHANGELOG.md	/^## [v5.8.35 (2019-09-09)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.8.17...v5.8.35)$/;"	s
+[v6.0.0 (2019-08-27)](https://github.com/laravel/laravel/compare/v5.8.35...v6.0.0)	CHANGELOG.md	/^## [v6.0.0 (2019-08-27)](https:\/\/github.com\/laravel\/laravel\/compare\/v5.8.35...v6.0.0)$/;"	s
+[v6.0.1 (2019-08-27)](https://github.com/laravel/laravel/compare/v6.0.0...v6.0.1)	CHANGELOG.md	/^## [v6.0.1 (2019-08-27)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.0.0...v6.0.1)$/;"	s
+[v6.0.2 (2019-09-10)](https://github.com/laravel/laravel/compare/v6.0.1...v6.0.2)	CHANGELOG.md	/^## [v6.0.2 (2019-09-10)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.0.1...v6.0.2)$/;"	s
+[v6.12.0 (2020-01-14)](https://github.com/laravel/laravel/compare/v6.8.0...v6.12.0)	CHANGELOG.md	/^## [v6.12.0 (2020-01-14)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.8.0...v6.12.0)$/;"	s
+[v6.18.0 (2020-02-24)](https://github.com/laravel/laravel/compare/v6.12.0...v6.18.0)	CHANGELOG.md	/^## [v6.18.0 (2020-02-24)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.12.0...v6.18.0)$/;"	s
+[v6.18.3 (2020-03-24)](https://github.com/laravel/laravel/compare/v6.18.0...v6.18.3)	CHANGELOG.md	/^## [v6.18.3 (2020-03-24)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.18.0...v6.18.3)$/;"	s
+[v6.2.0 (2019-10-08)](https://github.com/laravel/laravel/compare/v6.0.2...v6.2.0)	CHANGELOG.md	/^## [v6.2.0 (2019-10-08)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.0.2...v6.2.0)$/;"	s
+[v6.4.0 (2019-10-21)](https://github.com/laravel/laravel/compare/v6.2.0...v6.4.0)	CHANGELOG.md	/^## [v6.4.0 (2019-10-21)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.2.0...v6.4.0)$/;"	s
+[v6.5.2 (2019-11-21)](https://github.com/laravel/laravel/compare/v6.4.0...v6.5.2)	CHANGELOG.md	/^## [v6.5.2 (2019-11-21)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.4.0...v6.5.2)$/;"	s
+[v6.8.0 (2019-12-16)](https://github.com/laravel/laravel/compare/v6.5.2...v6.8.0)	CHANGELOG.md	/^## [v6.8.0 (2019-12-16)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.5.2...v6.8.0)$/;"	s
+[v7.0.0 (2020-03-03)](https://github.com/laravel/laravel/compare/v6.18.3...v7.0.0)	CHANGELOG.md	/^## [v7.0.0 (2020-03-03)](https:\/\/github.com\/laravel\/laravel\/compare\/v6.18.3...v7.0.0)$/;"	s
+[v7.3.0 (2020-03-24)](https://github.com/laravel/laravel/compare/v7.0.0...v7.3.0)	CHANGELOG.md	/^## [v7.3.0 (2020-03-24)](https:\/\/github.com\/laravel\/laravel\/compare\/v7.0.0...v7.3.0)$/;"	s
+app	artisan	/^$app = require_once __DIR__.'\/bootstrap\/app.php';$/;"	v
+app	bootstrap/app.php	/^$app = new Illuminate\\Foundation\\Application($/;"	v
+app	public/index.php	/^$app = require_once __DIR__.'\/..\/bootstrap\/app.php';$/;"	v
+autoload	composer.json	/^    "autoload": {$/;"	o
+autoload-dev	composer.json	/^    "autoload-dev": {$/;"	o
+axios	package.json	/^        "axios": "^0.19",$/;"	s	object:devDependencies
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AppServiceProvider
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AuthServiceProvider
+boot	app/Providers/BroadcastServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\BroadcastServiceProvider
+boot	app/Providers/EventServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\EventServiceProvider
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\RouteServiceProvider
+casts	app/User.php	/^    protected $casts = [$/;"	v	class:App\\User
+classmap	composer.json	/^        "classmap": [$/;"	a	object:autoload
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v	class:App\\Console\\Kernel
+commands	app/Console/Kernel.php	/^    protected function commands()$/;"	f	class:App\\Console\\Kernel
+config	composer.json	/^    "config": {$/;"	o
+createApplication	tests/CreatesApplication.php	/^    public function createApplication()$/;"	f	trait:Tests\\CreatesApplication
+cross-env	package.json	/^        "cross-env": "^7.0",$/;"	s	object:devDependencies
+description	composer.json	/^    "description": "The Laravel Framework.",$/;"	s
+dev	package.json	/^        "dev": "npm run development",$/;"	s	object:scripts
+devDependencies	package.json	/^    "devDependencies": {$/;"	o
+development	package.json	/^        "development": "cross-env NODE_ENV=development node_modules\/webpack\/bin\/webpack.js --/;"	s	object:scripts
+dont-discover	composer.json	/^            "dont-discover": []$/;"	a	object:extra.laravel
+dontFlash	app/Exceptions/Handler.php	/^    protected $dontFlash = [$/;"	v	class:App\\Exceptions\\Handler
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v	class:App\\Exceptions\\Handler
+down	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f	class:CreateUsersTable
+down	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function down()$/;"	f	class:CreateFailedJobsTable
+except	app/Http/Middleware/CheckForMaintenanceMode.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\CheckForMaintenanceMode
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\EncryptCookies
+except	app/Http/Middleware/TrimStrings.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\TrimStrings
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\VerifyCsrfToken
+extra	composer.json	/^    "extra": {$/;"	o
+facade/ignition	composer.json	/^        "facade\/ignition": "^2.0",$/;"	s	object:require-dev
+fideloper/proxy	composer.json	/^        "fideloper\/proxy": "^4.2",$/;"	s	object:require
+fillable	app/User.php	/^    protected $fillable = [$/;"	v	class:App\\User
+fruitcake/laravel-cors	composer.json	/^        "fruitcake\/laravel-cors": "^1.0",$/;"	s	object:require
+fzaninotto/faker	composer.json	/^        "fzaninotto\/faker": "^1.9.1",$/;"	s	object:require-dev
+guzzlehttp/guzzle	composer.json	/^        "guzzlehttp\/guzzle": "^6.3",$/;"	s	object:require
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, $guard = null)$/;"	f	class:App\\Http\\Middleware\\RedirectIfAuthenticated
+headers	app/Http/Middleware/TrustProxies.php	/^    protected $headers = Request::HEADER_X_FORWARDED_ALL;$/;"	v	class:App\\Http\\Middleware\\TrustProxies
+hidden	app/User.php	/^    protected $hidden = [$/;"	v	class:App\\User
+hot	package.json	/^        "hot": "cross-env NODE_ENV=development node_modules\/webpack-dev-server\/bin\/webpack-de/;"	s	object:scripts
+input	artisan	/^    $input = new Symfony\\Component\\Console\\Input\\ArgvInput,$/;"	v
+kernel	artisan	/^$kernel = $app->make(Illuminate\\Contracts\\Console\\Kernel::class);$/;"	v
+kernel	public/index.php	/^$kernel = $app->make(Illuminate\\Contracts\\Http\\Kernel::class);$/;"	v
+keywords	composer.json	/^    "keywords": [$/;"	a
+laravel	composer.json	/^        "laravel": {$/;"	o	object:extra
+laravel-mix	package.json	/^        "laravel-mix": "^5.0.1",$/;"	s	object:devDependencies
+laravel/framework	composer.json	/^        "laravel\/framework": "^7.0",$/;"	s	object:require
+laravel/tinker	composer.json	/^        "laravel\/tinker": "^2.0"$/;"	s	object:require
+license	composer.json	/^    "license": "MIT",$/;"	s
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v	class:App\\Providers\\EventServiceProvider
+lodash	package.json	/^        "lodash": "^4.17.13",$/;"	s	object:devDependencies
+map	app/Providers/RouteServiceProvider.php	/^    public function map()$/;"	f	class:App\\Providers\\RouteServiceProvider
+mapApiRoutes	app/Providers/RouteServiceProvider.php	/^    protected function mapApiRoutes()$/;"	f	class:App\\Providers\\RouteServiceProvider
+mapWebRoutes	app/Providers/RouteServiceProvider.php	/^    protected function mapWebRoutes()$/;"	f	class:App\\Providers\\RouteServiceProvider
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v	class:App\\Http\\Kernel
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v	class:App\\Http\\Kernel
+minimum-stability	composer.json	/^    "minimum-stability": "dev",$/;"	s
+mix	webpack.mix.js	/^const mix = require('laravel-mix');$/;"	C
+mockery/mockery	composer.json	/^        "mockery\/mockery": "^1.3.1",$/;"	s	object:require-dev
+name	composer.json	/^    "name": "laravel\/laravel",$/;"	s
+namespace	app/Providers/RouteServiceProvider.php	/^    protected $namespace = 'App\\Http\\Controllers';$/;"	v	class:App\\Providers\\RouteServiceProvider
+nunomaduro/collision	composer.json	/^        "nunomaduro\/collision": "^4.1",$/;"	s	object:require-dev
+optimize-autoloader	composer.json	/^        "optimize-autoloader": true,$/;"	b	object:config
+php	composer.json	/^        "php": "^7.2.5",$/;"	s	object:require
+phpunit/phpunit	composer.json	/^        "phpunit\/phpunit": "^8.5"$/;"	s	object:require-dev
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v	class:App\\Providers\\AuthServiceProvider
+post-autoload-dump	composer.json	/^        "post-autoload-dump": [$/;"	a	object:scripts
+post-create-project-cmd	composer.json	/^        "post-create-project-cmd": [$/;"	a	object:scripts
+post-root-package-install	composer.json	/^        "post-root-package-install": [$/;"	a	object:scripts
+prefer-stable	composer.json	/^    "prefer-stable": true,$/;"	b
+preferred-install	composer.json	/^        "preferred-install": "dist",$/;"	s	object:config
+private	package.json	/^    "private": true,$/;"	b
+prod	package.json	/^        "prod": "npm run production",$/;"	s	object:scripts
+production	package.json	/^        "production": "cross-env NODE_ENV=production node_modules\/webpack\/bin\/webpack.js --no/;"	s	object:scripts
+proxies	app/Http/Middleware/TrustProxies.php	/^    protected $proxies;$/;"	v	class:App\\Http\\Middleware\\TrustProxies
+psr-4	composer.json	/^        "psr-4": {$/;"	o	object:autoload
+psr-4	composer.json	/^        "psr-4": {$/;"	o	object:autoload-dev
+redirectTo	app/Http/Middleware/Authenticate.php	/^    protected function redirectTo($request)$/;"	f	class:App\\Http\\Middleware\\Authenticate
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f	class:App\\Providers\\AppServiceProvider
+render	app/Exceptions/Handler.php	/^    public function render($request, Throwable $exception)$/;"	f	class:App\\Exceptions\\Handler
+report	app/Exceptions/Handler.php	/^    public function report(Throwable $exception)$/;"	f	class:App\\Exceptions\\Handler
+request	public/index.php	/^    $request = Illuminate\\Http\\Request::capture()$/;"	v
+require	composer.json	/^    "require": {$/;"	o
+require-dev	composer.json	/^    "require-dev": {$/;"	o
+resolve-url-loader	package.json	/^        "resolve-url-loader": "^3.1.0",$/;"	s	object:devDependencies
+response	public/index.php	/^$response = $kernel->handle($/;"	v
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v	class:App\\Http\\Kernel
+run	database/seeds/DatabaseSeeder.php	/^    public function run()$/;"	f	class:DatabaseSeeder
+sass	package.json	/^        "sass": "^1.15.2",$/;"	s	object:devDependencies
+sass-loader	package.json	/^        "sass-loader": "^8.0.0"$/;"	s	object:devDependencies
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f	class:App\\Console\\Kernel
+scripts	composer.json	/^    "scripts": {$/;"	o
+scripts	package.json	/^    "scripts": {$/;"	o
+sort-packages	composer.json	/^        "sort-packages": true$/;"	b	object:config
+status	artisan	/^$status = $kernel->handle($/;"	v
+testBasicTest	tests/Feature/ExampleTest.php	/^    public function testBasicTest()$/;"	f	class:Tests\\Feature\\ExampleTest
+testBasicTest	tests/Unit/ExampleTest.php	/^    public function testBasicTest()$/;"	f	class:Tests\\Unit\\ExampleTest
+type	composer.json	/^    "type": "project",$/;"	s
+up	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f	class:CreateUsersTable
+up	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function up()$/;"	f	class:CreateFailedJobsTable
+uri	server.php	/^$uri = urldecode($/;"	v
+watch	package.json	/^        "watch": "npm run development -- --watch",$/;"	s	object:scripts
+watch-poll	package.json	/^        "watch-poll": "npm run watch -- --watch-poll",$/;"	s	object:scripts
+xsi	phpunit.xml	/^         colors="true">$/;"	n	uri:http://www.w3.org/2001/XMLSchema-instance
