@@ -6,74 +6,19 @@
 
         <title>Raven Cole</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
     </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    Raven Cole
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/ravencole">GitHub</a>
-                </div>
+    <body class="h-screen w-screen">
+        <div class="w-full h-full flex bg-black items-center justify-center flex-col">
+          <div class="p-2 border-8 border-white flex flex-col items-center justify-center">
+            <h1 class="px-4 mb-2 font-bold font-mono text-6xl text-white border-t-4 border-l-4 border-r-4 border-b border-white ">
+              Raven Cole
+            </h1>
+            <div class="w-full flex py-4 border-b-4 border-l-4 border-r-4 border-t border-white justify-center">
+              <a class="text-white font-mono text-xl" href="https://github.com/ravencole">GitHub</a>
             </div>
+          </div>
         </div>
+        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
