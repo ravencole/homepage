@@ -14,8 +14,13 @@
             <h1 class="px-4 mb-2 font-bold font-mono text-6xl text-white border-t-4 border-l-4 border-r-4 border-b border-white ">
               Raven Cole
             </h1>
-            <div class="w-full flex py-4 border-b-4 border-l-4 border-r-4 border-t border-white justify-center">
-              <a class="text-white font-mono text-xl" href="https://github.com/ravencole">GitHub</a>
+            <div class="w-full flex justify-center">
+              <div class="flex-1 flex py-4 border-b-4 border-l-4 border-r border-t border-white justify-center">
+                <a class="text-white font-mono text-xl" href="https://github.com/ravencole">GitHub</a>
+              </div>
+              <div class="flex-1 flex py-4 border-b-4 border-l border-r-4 border-t border-white justify-center">
+                <a class="text-white font-mono text-xl" href="{{ Storage::url('raven_cole_resume.pdf') }}">Resume</a>
+              </div>
             </div>
           </div>
         </div>
